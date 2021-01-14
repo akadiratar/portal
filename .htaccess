@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^tasarimproje\.abdulkadiratar\.com\.tr$
+RewriteRule ^/?$ "http\:\/\/tasarimproje\.abdulkadiratar\.com\.tr\/public" [R=301,L]
+
